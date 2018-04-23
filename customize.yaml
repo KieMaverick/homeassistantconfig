@@ -1,0 +1,10 @@
+light.bathroom:
+  hidden: true
+light.landing:
+  hidden: true
+light.living_room_2:
+  hidden: true
+light.master_bedroom:
+  hidden: true
+media_player.living_room:
+  hidden: true

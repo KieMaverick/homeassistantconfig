@@ -1,0 +1,21 @@
+#Groups
+  MasterBedroomLights:
+    name: Lights
+    view: no
+    entities:
+    - light.master_bedroom
+    - light.master_bedroom_lamp
+    - light.master_bedroom_light
+#Tabs
+  default_view:
+    name: Home
+    view: yes
+    entities:
+  MasterBedroom:
+    name: Master Bedroom
+    view: yes
+    entities:
+    - group.MasterBedroomLights
+    - media_player.master_bedroom_tv
+    - sensor.master_bedroom_humidity
+    - sensor.master_bedroom_tempreature

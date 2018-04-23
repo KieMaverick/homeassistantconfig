@@ -1,0 +1,10 @@
+secrets.yaml
+home-assistant_v2.db
+.ios.conf
+.uuid
+known_devices.yaml
+phue-001788a5aee1.conf
+plex.conf
+entity_registry.yaml
+configurator.py
+*.log
