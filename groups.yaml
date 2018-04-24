@@ -1,21 +1,47 @@
 #Groups
-  MasterBedroomLights:
-    name: Lights
-    view: no
-    entities:
-    - light.master_bedroom
-    - light.master_bedroom_lamp
-    - light.master_bedroom_light
+#  MasterBedroomLights:
+#    name: Lights
+#    view: no
+#    entities:
+#    - light.master_bedroom
+#    - light.master_bedroom_lamp
+#    - light.master_bedroom_light
 #Tabs
   default_view:
     name: Home
     view: yes
-    entities:
+#    entities:
   MasterBedroom:
     name: Master Bedroom
     view: yes
     entities:
-    - group.MasterBedroomLights
+    - light.landing
     - media_player.master_bedroom_tv
     - sensor.master_bedroom_humidity
     - sensor.master_bedroom_tempreature
+  LivingRoom:
+    name: Living Room
+    view: yes
+    entities:
+    - light.living_room
+    - light.living_room2
+    - light.tv_accent
+    - media_player.shield_android_tv
+    - media_player.living_room
+  Kitchen:
+    name: Kitchen
+    view: yes
+    entities:
+    - media_player.kitchen_speaker
+    - media_player.kitchen_tv
+  GuestBedroom:
+    name: Guest Bedroom
+    view: yes
+    entities:
+    - light.landing
+  Bathroom:
+    name: Bathroom
+    view: yes
+    entities:
+    - light.bathroom_light
+    - light.landing
